@@ -21,10 +21,12 @@ class Home extends Component {
       <View style={styles.flex}>
         <View style={styles.header}>
           <View style={[styles.flex, {paddingLeft: 10}]}>
-            <Text style={{fontWeight: 'bold'}}>Aplikasi Gigiku Hartaku</Text>
+            <Text style={{fontWeight: 'bold', color: 'black'}}>
+              Aplikasi Gigiku Hartaku
+            </Text>
           </View>
           <View style={{paddingRight: 10}}>
-            <Text>Info</Text>
+            <Text style={{color: 'black'}}>Info</Text>
           </View>
         </View>
         <View style={[styles.judul, {marginVertical: 20}]}>
@@ -62,9 +64,16 @@ class Home extends Component {
                 <Text
                   style={[
                     styles.fontWhite,
-                    {fontSize: 12, textAlign: 'center'},
+                    {fontSize: 18, textAlign: 'center'},
                   ]}>
-                  Gigiku Hartaku & Fungsi Gigi
+                  Gigiku Hartaku
+                </Text>
+                <Text
+                  style={[
+                    styles.fontWhite,
+                    {fontSize: 18, textAlign: 'center'},
+                  ]}>
+                  & Fungsi Gigi
                 </Text>
               </View>
             </TouchableOpacity>
@@ -75,18 +84,27 @@ class Home extends Component {
                 <Text
                   style={[
                     styles.fontWhite,
-                    {fontSize: 13, textAlign: 'center'},
+                    {fontSize: 18, textAlign: 'center'},
                   ]}>
-                  Anatomi Macam Gigi & Gigi Susu Gigi Tetap
+                  Anatomi Macam Gigi
+                </Text>
+                <Text
+                  style={[
+                    styles.fontWhite,
+                    {fontSize: 18, textAlign: 'center'},
+                  ]}>
+                  & Gigi Susu Gigi Tetap
                 </Text>
               </View>
             </TouchableOpacity>
-            <TouchableOpacity style={{marginVertical: 8}}>
+            <TouchableOpacity
+              onPress={() => this.props.navigation.navigate('Menu5')}
+              style={{marginVertical: 8}}>
               <View style={[styles.boxSize, styles.bgBlueDark, styles.center]}>
                 <Text
                   style={[
                     styles.fontWhite,
-                    {fontSize: 13, textAlign: 'center'},
+                    {fontSize: 23, textAlign: 'center'},
                   ]}>
                   Lubang Gigi
                 </Text>
@@ -97,7 +115,7 @@ class Home extends Component {
                 <Text
                   style={[
                     styles.fontWhite,
-                    {fontSize: 13, textAlign: 'center'},
+                    {fontSize: 21, textAlign: 'center'},
                   ]}>
                   Proses Lubang Gigi
                 </Text>
@@ -108,7 +126,7 @@ class Home extends Component {
                 <Text
                   style={[
                     styles.fontWhite,
-                    {fontSize: 13, textAlign: 'center'},
+                    {fontSize: 21, textAlign: 'center'},
                   ]}>
                   Ayo Merawat Gigi
                 </Text>
@@ -128,9 +146,16 @@ class Home extends Component {
                 <Text
                   style={[
                     styles.fontWhite,
-                    {fontSize: 12, textAlign: 'center'},
+                    {fontSize: 16, textAlign: 'center'},
                   ]}>
-                  Cara Menyikat Gigi Dengan Tepat
+                  Cara Menyikat Gigi
+                </Text>
+                <Text
+                  style={[
+                    styles.fontWhite,
+                    {fontSize: 16, textAlign: 'center'},
+                  ]}>
+                  Dengan Tepat
                 </Text>
               </View>
             </TouchableOpacity>
@@ -139,9 +164,16 @@ class Home extends Component {
                 <Text
                   style={[
                     styles.fontWhite,
-                    {fontSize: 13, textAlign: 'center'},
+                    {fontSize: 18, textAlign: 'center'},
                   ]}>
-                  Waktu Tepat Mengosok Gigi
+                  Waktu Tepat
+                </Text>
+                <Text
+                  style={[
+                    styles.fontWhite,
+                    {fontSize: 18, textAlign: 'center'},
+                  ]}>
+                  Mengosok Gigi
                 </Text>
               </View>
             </TouchableOpacity>
@@ -150,9 +182,16 @@ class Home extends Component {
                 <Text
                   style={[
                     styles.fontWhite,
-                    {fontSize: 13, textAlign: 'center'},
+                    {fontSize: 18, textAlign: 'center'},
                   ]}>
-                  Merawat Gigi Dengan Optimal
+                  Merawat Gigi
+                </Text>
+                <Text
+                  style={[
+                    styles.fontWhite,
+                    {fontSize: 18, textAlign: 'center'},
+                  ]}>
+                  Dengan Optimal
                 </Text>
               </View>
             </TouchableOpacity>
@@ -161,7 +200,7 @@ class Home extends Component {
                 <Text
                   style={[
                     styles.fontWhite,
-                    {fontSize: 13, textAlign: 'center'},
+                    {fontSize: 23, textAlign: 'center'},
                   ]}>
                   Kesimpulan
                 </Text>
@@ -172,7 +211,7 @@ class Home extends Component {
                 <Text
                   style={[
                     styles.fontWhite,
-                    {fontSize: 13, textAlign: 'center'},
+                    {fontSize: 23, textAlign: 'center'},
                   ]}>
                   Penutup
                 </Text>
@@ -226,6 +265,7 @@ const styles = StyleSheet.create({
   judul: {
     justifyContent: 'center',
     alignItems: 'center',
+    height: '25%',
   },
   center: {
     justifyContent: 'center',

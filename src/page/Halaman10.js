@@ -11,7 +11,7 @@ import {
   Image,
 } from 'react-native';
 
-class Halaman7 extends Component {
+class Halaman10 extends Component {
   constructor(props) {
     super(props);
     this.state = {};
@@ -46,12 +46,12 @@ class Halaman7 extends Component {
               textTransform: 'uppercase',
               fontSize: 20,
             }}>
-            gigi Susu
+            Tanda Kerusakan Gigi Depan
           </Text>
         </View>
         {/* <View style={{flex: 1}}> */}
         <Image
-          source={require('../img/slide9.jpg')}
+          source={require('../img/slide12.png')}
           style={{
             width: '100%',
             height: '80%',
@@ -62,4 +62,4 @@ class Halaman7 extends Component {
   }
 }
 
-export default Halaman7;
+export default Halaman10;

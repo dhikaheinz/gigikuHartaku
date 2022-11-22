@@ -10,7 +10,7 @@ import {
   ScrollView,
 } from 'react-native';
 
-class Menu4 extends Component {
+class Menu5 extends Component {
   constructor(props) {
     super(props);
     this.state = {};
@@ -40,7 +40,7 @@ class Menu4 extends Component {
               paddingVertical: 10,
             }}>
             <TouchableOpacity
-              onPress={() => this.props.navigation.navigate('Halaman5')}
+              onPress={() => this.props.navigation.navigate('Halaman9')}
               style={{
                 padding: 20,
                 backgroundColor: '#334155',
@@ -56,11 +56,11 @@ class Menu4 extends Component {
                   fontWeight: 'bold',
                   fontSize: 20,
                 }}>
-                Anatomi Gigi
+                Proses Terjadinya Lubang Gigi
               </Text>
             </TouchableOpacity>
             <TouchableOpacity
-              onPress={() => this.props.navigation.navigate('Halaman6')}
+              onPress={() => this.props.navigation.navigate('Halaman10')}
               style={{
                 padding: 20,
                 backgroundColor: '#334155',
@@ -76,11 +76,11 @@ class Menu4 extends Component {
                   fontWeight: 'bold',
                   fontSize: 20,
                 }}>
-                Macam Gigi
+                Tanda Kerusakan Gigi Depan
               </Text>
             </TouchableOpacity>
             <TouchableOpacity
-              onPress={() => this.props.navigation.navigate('Halaman7')}
+              onPress={() => this.props.navigation.navigate('Halaman11')}
               style={{
                 padding: 20,
                 backgroundColor: '#334155',
@@ -96,27 +96,7 @@ class Menu4 extends Component {
                   fontWeight: 'bold',
                   fontSize: 20,
                 }}>
-                Gigi Susu
-              </Text>
-            </TouchableOpacity>
-            <TouchableOpacity
-              onPress={() => this.props.navigation.navigate('Halaman8')}
-              style={{
-                padding: 20,
-                backgroundColor: '#334155',
-                borderRadius: 20,
-                width: '70%',
-                elevation: 20,
-                marginVertical: 10,
-              }}>
-              <Text
-                style={{
-                  color: 'white',
-                  textAlign: 'center',
-                  fontWeight: 'bold',
-                  fontSize: 20,
-                }}>
-                Gigi Tetap
+                Tanda Kerusakan Gigi Belakang
               </Text>
             </TouchableOpacity>
           </View>
@@ -126,4 +106,4 @@ class Menu4 extends Component {
   }
 }
 
-export default Menu4;
+export default Menu5;
