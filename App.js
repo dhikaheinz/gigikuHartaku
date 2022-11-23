@@ -19,7 +19,22 @@ import Halaman7 from './src/page/Halaman7';
 import Halaman8 from './src/page/Halaman8';
 import Menu5 from './src/page/Menu5';
 import Halaman9 from './src/page/Halaman9';
+import Halaman10 from './src/page/Halaman10';
 import Halaman11 from './src/page/Halaman11';
+import Menu6 from './src/page/Menu6';
+import Halaman12 from './src/page/Halaman12';
+import Halaman13 from './src/page/Halaman13';
+import Menu7 from './src/page/Menu7';
+import Halaman14 from './src/page/Halaman14';
+import Halaman15 from './src/page/Halaman15';
+import Halaman16 from './src/page/Halaman16';
+import Menu8 from './src/page/Menu8';
+import Halaman17 from './src/page/Halaman17';
+import Halaman18 from './src/page/Halaman18';
+import Halaman19 from './src/page/Halaman19';
+import Halaman20 from './src/page/Halaman20';
+import Halaman21 from './src/page/Halaman21';
+import Menu9 from './src/page/Menu9';
 
 const Stack = createNativeStackNavigator();
 
@@ -46,6 +61,20 @@ function App() {
         <Stack.Screen name="Halaman9" component={Halaman9} />
         <Stack.Screen name="Halaman10" component={Halaman10} />
         <Stack.Screen name="Halaman11" component={Halaman11} />
+        <Stack.Screen name="Menu6" component={Menu6} />
+        <Stack.Screen name="Halaman12" component={Halaman12} />
+        <Stack.Screen name="Halaman13" component={Halaman13} />
+        <Stack.Screen name="Menu7" component={Menu7} />
+        <Stack.Screen name="Halaman14" component={Halaman14} />
+        <Stack.Screen name="Halaman15" component={Halaman15} />
+        <Stack.Screen name="Halaman16" component={Halaman16} />
+        <Stack.Screen name="Menu8" component={Menu8} />
+        <Stack.Screen name="Halaman17" component={Halaman17} />
+        <Stack.Screen name="Halaman18" component={Halaman18} />
+        <Stack.Screen name="Halaman19" component={Halaman19} />
+        <Stack.Screen name="Halaman20" component={Halaman20} />
+        <Stack.Screen name="Halaman21" component={Halaman21} />
+        <Stack.Screen name="Menu9" component={Menu9} />
       </Stack.Navigator>
     </NavigationContainer>
   );

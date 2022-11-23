@@ -110,7 +110,9 @@ class Home extends Component {
                 </Text>
               </View>
             </TouchableOpacity>
-            <TouchableOpacity style={{marginVertical: 8}}>
+            <TouchableOpacity
+              onPress={() => this.props.navigation.navigate('Menu6')}
+              style={{marginVertical: 8}}>
               <View style={[styles.boxSize, styles.bgBlueDark, styles.center]}>
                 <Text
                   style={[
@@ -121,7 +123,9 @@ class Home extends Component {
                 </Text>
               </View>
             </TouchableOpacity>
-            <TouchableOpacity style={{marginVertical: 8}}>
+            <TouchableOpacity
+              onPress={() => this.props.navigation.navigate('Menu7')}
+              style={{marginVertical: 8}}>
               <View style={[styles.boxSize, styles.bgBlueDark, styles.center]}>
                 <Text
                   style={[
@@ -141,7 +145,9 @@ class Home extends Component {
               flexDirection: 'column',
               marginVertical: 10,
             }}>
-            <TouchableOpacity style={{marginVertical: 8}}>
+            <TouchableOpacity
+              onPress={() => this.props.navigation.navigate('Menu8')}
+              style={{marginVertical: 8}}>
               <View style={[styles.boxSize, styles.bgBlueDark, styles.center]}>
                 <Text
                   style={[
@@ -159,7 +165,9 @@ class Home extends Component {
                 </Text>
               </View>
             </TouchableOpacity>
-            <TouchableOpacity style={{marginVertical: 8}}>
+            <TouchableOpacity
+              onPress={() => this.props.navigation.navigate('Menu9')}
+              style={{marginVertical: 8}}>
               <View style={[styles.boxSize, styles.bgBlueDark, styles.center]}>
                 <Text
                   style={[
