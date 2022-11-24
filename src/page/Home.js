@@ -205,7 +205,9 @@ class Home extends Component {
                 </Text>
               </View>
             </TouchableOpacity>
-            <TouchableOpacity style={{marginVertical: 8}}>
+            <TouchableOpacity
+              onPress={() => this.props.navigation.navigate('Menu11')}
+              style={{marginVertical: 8}}>
               <View style={[styles.boxSize, styles.bgBlueDark, styles.center]}>
                 <Text
                   style={[

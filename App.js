@@ -41,6 +41,11 @@ import Halaman24 from './src/page/Halaman24';
 import Menu10 from './src/page/Menu10';
 import Halaman25 from './src/page/Halaman25';
 import Halaman26 from './src/page/Halaman26';
+import Menu11 from './src/page/Menu11';
+import Halaman27 from './src/page/Halaman27';
+import Halaman28 from './src/page/Halaman28';
+import Halaman29 from './src/page/Halaman29';
+import Halaman30 from './src/page/Halaman30';
 
 const Stack = createNativeStackNavigator();
 
@@ -87,6 +92,11 @@ function App() {
         <Stack.Screen name="Menu10" component={Menu10} />
         <Stack.Screen name="Halaman25" component={Halaman25} />
         <Stack.Screen name="Halaman26" component={Halaman26} />
+        <Stack.Screen name="Menu11" component={Menu11} />
+        <Stack.Screen name="Halaman27" component={Halaman27} />
+        <Stack.Screen name="Halaman28" component={Halaman28} />
+        <Stack.Screen name="Halaman29" component={Halaman29} />
+        <Stack.Screen name="Halaman30" component={Halaman30} />
       </Stack.Navigator>
     </NavigationContainer>
   );
