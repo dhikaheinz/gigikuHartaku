@@ -21,12 +21,24 @@ class Home extends Component {
       <View style={styles.flex}>
         <View style={styles.header}>
           <View style={[styles.flex, {paddingLeft: 10}]}>
-            <Text style={{fontWeight: 'bold', color: 'black'}}>
+            <Text
+              style={{
+                fontWeight: 'bold',
+                color: 'black',
+                margin: 5,
+                fontSize: 20,
+              }}>
               Aplikasi Gigiku Hartaku
             </Text>
           </View>
           <View style={{paddingRight: 10}}>
-            <Text style={{color: 'black'}}>Info</Text>
+            <TouchableOpacity
+              onPress={() => this.props.navigation.navigate('Halaman34')}
+              style={[styles.bgBlueDark, {borderRadius: 10, padding: 1}]}>
+              <Text style={{color: 'white', margin: 5, fontSize: 20}}>
+                Info
+              </Text>
+            </TouchableOpacity>
           </View>
         </View>
         <View style={[styles.judul, {marginVertical: 20}]}>
@@ -218,7 +230,9 @@ class Home extends Component {
                 </Text>
               </View>
             </TouchableOpacity>
-            <TouchableOpacity style={{marginVertical: 8}}>
+            <TouchableOpacity
+              onPress={() => this.props.navigation.navigate('Menu12')}
+              style={{marginVertical: 8}}>
               <View style={[styles.boxSize, styles.bgBlueDark, styles.center]}>
                 <Text
                   style={[
@@ -253,8 +267,8 @@ const styles = StyleSheet.create({
     color: 'black',
   },
   header: {
-    paddingVertical: 15,
-    paddingHorizontal: 5,
+    paddingVertical: 20,
+    paddingHorizontal: 10,
     backgroundColor: 'rgb(110, 231, 183)',
     flexDirection: 'row',
     justifyContent: 'space-between',
