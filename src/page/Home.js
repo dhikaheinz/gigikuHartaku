@@ -41,7 +41,7 @@ class Home extends Component {
             </TouchableOpacity>
           </View>
         </View>
-        <View style={[styles.judul, {marginVertical: 20}]}>
+        <View style={[styles.judul, {marginVertical: 10}]}>
           <Text style={styles.textJudul}>Cara Pemeliharaan</Text>
           <Text style={styles.textJudul}>Kesehatan Gigi Dan Mulut</Text>
           <Text style={styles.textSubJudul}>
@@ -267,7 +267,7 @@ const styles = StyleSheet.create({
     color: 'black',
   },
   header: {
-    paddingVertical: 20,
+    paddingVertical: 10,
     paddingHorizontal: 10,
     backgroundColor: 'rgb(110, 231, 183)',
     flexDirection: 'row',
@@ -291,7 +291,7 @@ const styles = StyleSheet.create({
   judul: {
     justifyContent: 'center',
     alignItems: 'center',
-    height: '25%',
+    height: '18%',
   },
   center: {
     justifyContent: 'center',
